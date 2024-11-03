@@ -24,8 +24,8 @@ This repository summarizes the resoruce for LLM Agents. For more details, please
 Most of the papers are published on ICML, ICLR, NeurIPS, *ACL (including EMNLP), COLM, etc.
 We use the 💡 icon to identify articles that have not been peer-reviewed and may be updated.
 - [A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning](https://arxiv.org/abs/2406.05804) 💡
-  - 23 Oct 2024  The 4th version is available on [arxiv](https://arxiv.org/abs/2406.05804), retitled as "A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning".
-  - 9 Jun 2024  The 1st version is available on [arxiv](https://arxiv.org/abs/2406.05804v2), titled as "A Survey on LLM-Based Agents: Common Workflows and Reusable LLM-Profiled Components"
+  - [23 Oct 2024] The 4th version is available on [arxiv](https://arxiv.org/abs/2406.05804), retitled as "A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning".
+  - [09 Jun 2024] The 1st version is available on [arxiv](https://arxiv.org/abs/2406.05804v2), titled as "A Survey on LLM-Based Agents: Common Workflows and Reusable LLM-Profiled Components"
 
 This reading list will be updated periodically, and if you have any suggestions or find some we missed, feel free to contact us! You can submit an issue or send an email (xinzheli212@gmail.com).
 
@@ -36,11 +36,16 @@ This reading list will be updated periodically, and if you have any suggestions 
 - [🧠 Planning](#brain-planning)
   - [Base Workflows](#base-workflows)
   - [Search Workflows](#search-workflows)
+  - [Decomposition](#decomposition)
+  - [PDDL + Local Search](#pddl+local-search)
   - [Others](#others)
 - [🔄 Feedback Learning](#arrows_counterclockwise-feedback-learning)
 - [🧩 Composition](#jigsaw-composition)
   - [Planning + Feedback Learning](#planning--feedback-learning)
   - [Planning + Tool Use](#planning--tool-use)
+- [🌍 World Modeling](#world_map-world-modeling)
+  <!-- - [LLM as World Models](#llm-as-world-models)
+  - [LLM-Generated World Models](#llm-generated-world-models) -->
 - [📊 Benchmarks](#bar_chart-benchmarks)
 - [📝 Citation](#memo-citation)
 
@@ -48,7 +53,7 @@ This reading list will be updated periodically, and if you have any suggestions 
 ## :gift: Surveys
 - **A Survey on Large Language Model based Autonomous Agents**, Frontiers of Computer Science 2024 [[paper]](https://arxiv.org/abs/2308.11432) | [[code]](https://github.com/Paitesanshi/LLM-Agent-Survey)
 - **Augmented Language Models: a Survey**, TMLR [[paper]](https://openreview.net/forum?id=jh7wH2AzKK)
-- [2024/02/05] **Understanding the planning of LLM agents: A survey**, arXiv [[paper]](https://arxiv.org/abs/2402.02716)
+- **Understanding the planning of LLM agents: A survey**, arXiv [[paper]](https://arxiv.org/abs/2402.02716)
 
 ### :rocket: Tool Use
 - **ReAct: Synergizing Reasoning and Acting in Language Models**, ICLR 2023 [[paper](https://openreview.net/pdf?id=WE_vluYUL-X)]
@@ -73,15 +78,34 @@ This reading list will be updated periodically, and if you have any suggestions 
 #### Base Workflows
 - **On the Planning Abilities of Large Language Models -- A Critical Investigation**, NeurIPS 2023 [[paper](https://doi.org/10.48550/arXiv.2305.15771)] 
 
-#### Search Workflows
+#### Search Workflows 
+<!-- BFS/DFS -->
 - **Tree of Thoughts: Deliberate Problem Solving with Large Language Models**, NeurIPS 2023 [[paper](https://doi.org/10.48550/arXiv.2305.10601)]
-- **Reasoning with Language Model is Planning with World Model**, EMNLP 2023 [[paper](https://api.semanticscholar.org/CorpusID:258865812)]
 - **Graph of Thoughts: Solving Elaborate Problems with Large Language Models**, AAAI 2024 [[paper](https://doi.org/10.48550/arXiv.2308.09687)]
+- **Tree-of-Traversals: A Zero-Shot Reasoning Algorithm for Augmenting Black-box Language Models with Knowledge Graphs**, ACL 2024 [[paper](https://aclanthology.org/2024.acl-long.665/)]
+- **When is Tree Search Useful for {LLM} Planning? It Depends on the Discriminator**, ACL 2024 [[paper](https://aclanthology.org/2024.acl-long.738/)]
+<!-- MCTS -->
+- **LLM-MCTS:Large Language Models as Commonsense Knowledge for Large-Scale Task Planning**, NeurIPS 2023 [[paper](https://openreview.net/forum?id=tED747HURfX)] | [[code]](https://github.com/1989Ryan/llm-mcts)
+- **RAP: Reasoning with Language Model is Planning with World Model**, EMNLP 2023 [[paper](https://api.semanticscholar.org/CorpusID:258865812)]
+- **Alphazero-like Tree-Search can guide large language model decoding and training**, ICML 2024 [[paper](https://arxiv.org/abs/2309.17179)]
+- **Prompt-Based Monte-Carlo Tree Search for Goal-oriented Dialogue Policy Planning**, EMNLP 2023 [[paper](https://aclanthology.org/2023.emnlp-main.439/)]
+- **Monte Carlo Thought Search: Large Language Model Querying for Complex Scientific Reasoning in Catalyst Design**, EMNLP findings 2023 [[paper](https://aclanthology.org/2023.findings-emnlp.560/)]
+- **Agent q: Advanced reasoning and learning for autonomous ai agents**, arXiv.2309.10814 [[paper](https://arxiv.org/abs/2408.07199)] 💡
+<!-- Uncategorized -->
 - **Tree-Planner: Efficient Close-loop Task Planning with Large Language Models**, ICLR 2024 [[paper](https://openreview.net/forum?id=Glcsog6zOe)] 
 - **Plan, Verify and Switch: Integrated Reasoning with Diverse X-of-Thoughts**, EMNLP 2023 [[paper](https://doi.org/10.48550/arXiv.2310.14628)] 
 - **LLM Reasoners: New Evaluation, Library, and Analysis of Step-by-Step Reasoning with Large Language Models**, COLM2024 [[paper]](https://arxiv.org/abs/2404.05221) | [[code]](https://github.com/maitrix-org/llm-reasoners)
 - **Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models**, arXiv.2310.04406 [[paper](https://doi.org/10.48550/arXiv.2310.04406)] 💡
 - **Large Language Model Guided Tree-of-Thought**, arXiv.2305.08291 [[paper](https://doi.org/10.48550/arXiv.2305.08291)]💡
+
+#### Decomposition
+- **HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face**, NeurIPS 2023 [[paper](https://openreview.net/forum?id=yHdTscY6Ci)] | [[code]](https://github.com/microsoft/JARVIS/tree/main/hugginggpt)
+- **Least-to-Most Prompting Enables Complex Reasoning in Large Language Models**, NeurIPS 2023 [[paper](https://openreview.net/forum?id=WZH7099tgfM)]
+
+#### PDDL+Local Search
+- **Leveraging Pre-trained Large Language Models to Construct and Utilize World Models for Model-based Task Planning**, NeurIPS 2023 [[paper](https://arxiv.org/abs/2305.14909)] | [[code]](https://github.com/GuanSuns/LLMs-World-Models-for-Planning)
+- **On the Planning Abilities of Large Language Models - A Critical Investigation**, NeurIPS 2023 [[paper](https://openreview.net/forum?id=X6dEqXIsEW)] | [[code]](https://github.com/karthikv792/LLMs-Planning)
+- **PlanBench: An Extensible Benchmark for Evaluating Large Language Models on Planning and Reasoning about Change**, NeurIPS 2023 [[paper](https://openreview.net/forum?id=YXogl4uQUO)] | [[code]](https://github.com/karthikv792/LLMs-Planning)
 
 #### Others
 - **LLM+P: Empowering Large Language Models with Optimal Planning Proficiency**, arXiv.2304.11477 [[paper](https://doi.org/10.48550/arXiv.2304.11477)]💡
@@ -95,7 +119,6 @@ This reading list will be updated periodically, and if you have any suggestions 
 - **LLM-based Rewriting of Inappropriate Argumentation using Reinforcement Learning from Machine Feedback** ACL 2024 [[paper]](https://arxiv.org/abs/2406.03363)
 
 
-
 ### :jigsaw: Composition
 #### Planning + Feedback Learning
 - **AdaPlanner: Adaptive Planning from Feedback with Language Models**, NeurIPS 2023 [[paper](https://doi.org/10.48550/arXiv.2305.16653)] 
@@ -106,6 +129,14 @@ This reading list will be updated periodically, and if you have any suggestions 
 - **ToolChain\*: Efficient Action Space Navigation in Large Language Models with A* Search**, ICLR 2024 [[paper](https://openreview.net/forum?id=B6pQxqUcT8)] 
 - **TPTU: Task Planning and Tool Usage of Large Language Model-based AI Agents**, FMDM @ NeurIPS 2023 [[paper](https://openreview.net/forum?id=GrkgKtOjaH)] 
 - **TPTU-v2: Boosting Task Planning and Tool Usage of Large Language Model-based Agents in Real-world Systems**, LLMAgents @ ICLR 2024 [[paper](https://doi.org/10.48550/arXiv.2311.11315)] 
+
+### :world_map: World Modeling
+<!-- #### LLM as World Models -->
+- **Can Language Models Serve as Text-Based World Simulators?**, ACL 2024 [[paper](https://arxiv.org/abs/2406.06485)] | [[code]](https://github.com/cognitiveailab/GPT-simulator)
+- **Making Large Language Models into World Models with Precondition and Effect Knowledge**, arXiv [[paper](https://arxiv.org/abs/2409.12278)] 💡
+<!-- #### LLM-Generated World Models -->
+- **Leveraging Pre-trained Large Language Models to Construct and Utilize World Models for Model-based Task Planning**, NeurIPS 2023 [[paper](https://arxiv.org/abs/2305.14909)] | [[code]](https://github.com/GuanSuns/LLMs-World-Models-for-Planning)
+- **ByteSized32: A Corpus and Challenge Task for Generating Task-Specific World Models Expressed as Text Games**, EMNLP 2023 [[paper](https://aclanthology.org/2023.emnlp-main.830/)] | [[code]](https://github.com/cognitiveailab/BYTESIZED32/tree/main)
 
 ### :bar_chart: Benchmarks
 #### Tool-Use Benchmarks
