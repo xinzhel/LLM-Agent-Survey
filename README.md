@@ -156,11 +156,6 @@ This reading list will be updated periodically, and if you have any suggestions 
 If you find our work helpful, you can cite this paper as:
 
 ```bibtex
-@article{
-  journal={arXiv preprint arXiv:2406.05804},
-  year={2024}
-}
-
 @inproceedings{li2024review,
   title={A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning},
   author={Li, Xinzhe},
