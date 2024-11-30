@@ -1,6 +1,6 @@
 <div align="center">
 <h2>    
-Resources for LLM-Agents: LLM-Profiled Roles,  Tool Use, Planning, and Feedback Learning (Updated: 24 Oct 2024)
+Resources for LLM-Agents (Updated: 30 Nov 2024)
 </div>
 
 <div align="center">
@@ -14,7 +14,7 @@ Resources for LLM-Agents: LLM-Profiled Roles,  Tool Use, Planning, and Feedback 
 <br />
 
 <div align="center">
-      <a href="https://arxiv.org/abs/2406.05804"><img src="https://img.shields.io/badge/arXiv-2406.05804-b31b1b.svg" alt="Paper"></a>
+    <a href="https://arxiv.org/abs/2406.05804"><img src="https://img.shields.io/badge/CoLing-2025-b31b1b" alt="Paper"></a>
     <a href="https://github.com/xinzhel/llm-agent-survey"><img src="https://img.shields.io/github/last-commit/xinzhel/llm-agent-survey?color=blue" alt="Github"></a>
     <a href="https://github.com/xinzhel/llm-agent-survey/blob/main/LICENSE"> <img alt="License" src="https://img.shields.io/github/license/xinzhel/llm-agent-survey?color=green"> </a>
 </div>
@@ -23,8 +23,9 @@ This repository summarizes the resoruce for LLM Agents. For more details, please
 
 Most of the papers are published on ICML, ICLR, NeurIPS, *ACL (including EMNLP), COLM, etc.
 We use the 💡 icon to identify articles that have not been peer-reviewed and may be updated.
-- [A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning](https://arxiv.org/abs/2406.05804) 💡
-  - [23 Oct 2024] The 4th version is available on [arxiv](https://arxiv.org/abs/2406.05804), retitled as "A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning".
+- [A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning](https://arxiv.org/abs/2406.05804)
+  - [23 Oct 2024] The paper is accepted by CoLing 2025. The camera-ready version is available on [arxiv](https://arxiv.org/abs/2406.05804)
+  - [23 Oct 2024] The 4th version is available on [arxiv](https://arxiv.org/abs/2406.05804v5), retitled as "A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning".
   - [09 Jun 2024] The 1st version is available on [arxiv](https://arxiv.org/abs/2406.05804v2), titled as "A Survey on LLM-Based Agents: Common Workflows and Reusable LLM-Profiled Components"
 
 This reading list will be updated periodically, and if you have any suggestions or find some we missed, feel free to contact us! You can submit an issue or send an email (xinzheli212@gmail.com).
@@ -51,6 +52,7 @@ This reading list will be updated periodically, and if you have any suggestions 
 
 
 ## :gift: Surveys
+- **A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning**, CoLing 2025 [[paper]](https://arxiv.org/abs/2406.05804)
 - **A Survey on Large Language Model based Autonomous Agents**, Frontiers of Computer Science 2024 [[paper]](https://arxiv.org/abs/2308.11432) | [[code]](https://github.com/Paitesanshi/LLM-Agent-Survey)
 - **Augmented Language Models: a Survey**, TMLR [[paper]](https://openreview.net/forum?id=jh7wH2AzKK)
 - **Understanding the planning of LLM agents: A survey**, arXiv [[paper]](https://arxiv.org/abs/2402.02716)
@@ -91,6 +93,8 @@ This reading list will be updated periodically, and if you have any suggestions 
 - **Prompt-Based Monte-Carlo Tree Search for Goal-oriented Dialogue Policy Planning**, EMNLP 2023 [[paper](https://aclanthology.org/2023.emnlp-main.439/)]
 - **Monte Carlo Thought Search: Large Language Model Querying for Complex Scientific Reasoning in Catalyst Design**, EMNLP findings 2023 [[paper](https://aclanthology.org/2023.findings-emnlp.560/)]
 - **Agent q: Advanced reasoning and learning for autonomous ai agents**, arXiv.2309.10814 [[paper](https://arxiv.org/abs/2408.07199)] 💡
+<!-- A* -->
+- **LLM-A*: Large Language Model Enhanced Incremental Heuristic Search on Path Planning**, EMNLP findings 2024 [[paper](https://arxiv.org/pdf/2407.02511)] | [[code]](https://github.com/SilinMeng0510/llm-astar/)
 <!-- Uncategorized -->
 - **Tree-Planner: Efficient Close-loop Task Planning with Large Language Models**, ICLR 2024 [[paper](https://openreview.net/forum?id=Glcsog6zOe)] 
 - **Plan, Verify and Switch: Integrated Reasoning with Diverse X-of-Thoughts**, EMNLP 2023 [[paper](https://doi.org/10.48550/arXiv.2310.14628)] 
@@ -152,10 +156,15 @@ This reading list will be updated periodically, and if you have any suggestions 
 If you find our work helpful, you can cite this paper as:
 
 ```bibtex
-@article{li2024review,
-  title={A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning},
-  author={Li, Xinzhe},
+@article{
   journal={arXiv preprint arXiv:2406.05804},
   year={2024}
+}
+
+@inproceedings{li2024review,
+  title={A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning},
+  author={Li, Xinzhe},
+  booktitle = "Proceedings of the 31st International Conference on Computational Linguistics",
+  year = "2025",  
 }
 ```
