@@ -1,6 +1,6 @@
 <div align="center">
 <h2>    
-Resources for LLM-Agents (Updated: 30 Nov 2024)
+A Reading List for LLM-Agents (Updated: 30 Nov 2024)
 </div>
 
 <div align="center">
@@ -19,17 +19,17 @@ Resources for LLM-Agents (Updated: 30 Nov 2024)
     <a href="https://github.com/xinzhel/llm-agent-survey/blob/main/LICENSE"> <img alt="License" src="https://img.shields.io/github/license/xinzhel/llm-agent-survey?color=green"> </a>
 </div>
 
-This repository summarizes the resoruce for LLM Agents. For more details, please refer to our papers below. 
-
-Most of the papers are published on ICML, ICLR, NeurIPS, *ACL (including EMNLP), COLM, etc.
-We use the 💡 icon to identify articles that have not been peer-reviewed and may be updated.
+## About This Repository  
+This repository summarizes papers from our survey:
 - [A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning](https://arxiv.org/abs/2406.05804)
-  - [23 Oct 2024] The paper is accepted by CoLing 2025. The camera-ready version is available on [arxiv](https://arxiv.org/abs/2406.05804)
-  - [23 Oct 2024] The 4th version is available on [arxiv](https://arxiv.org/abs/2406.05804v5), retitled as "A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning".
-  - [09 Jun 2024] The 1st version is available on [arxiv](https://arxiv.org/abs/2406.05804v2), titled as "A Survey on LLM-Based Agents: Common Workflows and Reusable LLM-Profiled Components"
+  - [30 Nov 2024] Accepted at CoLing 2025. Camera-ready version on [arxiv](https://arxiv.org/abs/2406.05804)
+  - [23 Oct 2024] Retitled in version 4 on [arxiv](https://arxiv.org/abs/2406.05804v5)
+  - [09 Jun 2024] Initial version titled  "A Survey on LLM-Based Agents: Common Workflows and Reusable LLM-Profiled Components" on [arxiv](https://arxiv.org/abs/2406.05804v2)
 
-This reading list will be updated periodically, and if you have any suggestions or find some we missed, feel free to contact us! You can submit an issue or send an email (xinzheli212@gmail.com).
-
+### Highlights
+- Papers primarily from ICML, ICLR, NeurIPS, *ACL (including EMNLP), and COLING.  
+- Unpublished or non-peer-reviewed papers are marked with 💡 and updated upon publication.  
+- Regular updates—⭐️ star this repo to stay updated!  
 
 ## Table of Contents
 - [🎁 Surveys](#gift-surveys)
