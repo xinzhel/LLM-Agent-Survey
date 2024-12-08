@@ -1,6 +1,6 @@
 <div align="center">
 <h2>    
-A Reading List for LLM-Agents (Updated: 30 Nov 2024)
+A Reading List for LLM-Agents (Updated: 8 Dec 2024)
 </div>
 
 <div align="center">
@@ -27,9 +27,24 @@ This repository summarizes papers from our survey:
   - [09 Jun 2024] Initial version titled  "A Survey on LLM-Based Agents: Common Workflows and Reusable LLM-Profiled Components" on [arxiv](https://arxiv.org/abs/2406.05804v2)
 
 ### Highlights
-- Papers primarily from ICML, ICLR, NeurIPS, *ACL (including EMNLP), and COLING.  
-- Unpublished or non-peer-reviewed papers are marked with 💡 and updated upon publication.  
-- Regular updates—⭐️ star this repo to stay updated!  
+Our Github Repository follows the selection criteria below:
+- Allowing Coherent Understanding: They can be systematically categoried into the unified framework in my survey
+  -  I am writing a more comprehensive survey under a more flexible, unified framework. ⭐️ STAR this repo to follow.  
+- High Quality: Papers are published on ICML, ICLR, NeurIPS, *ACL (including EMNLP), and COLING. Or unpublished papers maintain useful analysis and insightful novelty 
+  - Unpublished papers are marked with 💡 and will be updated upon publication. ⭐️ STAR this repo to stay updated!  
+
+Other Github Repositories summarize related papers with less constrained selection criteria:
+* [AGI-Edgerunners/LLM-Agents-Papers](https://github.com/AGI-Edgerunners/LLM-Agents-Papers?tab=readme-ov-file)
+* [zjunlp/LLMAgentPapers](https://github.com/zjunlp/LLMAgentPapers)
+* [Paitesanshi/LLM-Agent-Survey](https://github.com/Paitesanshi/LLM-Agent-Survey)
+* [woooodyy/llm-agent-paper-list](https://github.com/woooodyy/llm-agent-paper-list)
+
+Other Github Repositories summarize related papers focusing on specific perspectives:
+* [nuster1128/LLM_Agent_Memory_Survey](https://github.com/nuster1128/LLM_Agent_Memory_Survey): Focus on memory
+* [teacherpeterpan/self-correction-llm-papers](https://github.com/teacherpeterpan/self-correction-llm-papers): Focus on feedback learning (Self Correction)
+* [git-disl/awesome-LLM-game-agent-papers](https://github.com/git-disl/awesome-LLM-game-agent-papers): Focus on gaming applications
+
+
 
 ## Table of Contents
 - [🎁 Surveys](#gift-surveys)
@@ -55,7 +70,9 @@ This repository summarizes papers from our survey:
 - **A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning**, CoLing 2025 [[paper]](https://arxiv.org/abs/2406.05804)
 - **A Survey on Large Language Model based Autonomous Agents**, Frontiers of Computer Science 2024 [[paper]](https://arxiv.org/abs/2308.11432) | [[code]](https://github.com/Paitesanshi/LLM-Agent-Survey)
 - **Augmented Language Models: a Survey**, TMLR [[paper]](https://openreview.net/forum?id=jh7wH2AzKK)
-- **Understanding the planning of LLM agents: A survey**, arXiv [[paper]](https://arxiv.org/abs/2402.02716)
+- **Understanding the planning of LLM agents: A survey**, arXiv [[paper]](https://arxiv.org/abs/2402.02716) 💡
+- **The Rise and Potential of Large Language Model Based Agents: A Survey**, arxiv [[paper]](https://arxiv.org/abs/2309.07864) 💡
+- **A Survey on the Memory Mechanism of Large Language Model based Agents**, arxiv [[paper]](https://arxiv.org/abs/2404.13501) 💡
 
 ### :rocket: Tool Use
 - **ReAct: Synergizing Reasoning and Acting in Language Models**, ICLR 2023 [[paper](https://openreview.net/pdf?id=WE_vluYUL-X)]
@@ -94,7 +111,7 @@ This repository summarizes papers from our survey:
 - **Monte Carlo Thought Search: Large Language Model Querying for Complex Scientific Reasoning in Catalyst Design**, EMNLP findings 2023 [[paper](https://aclanthology.org/2023.findings-emnlp.560/)]
 - **Agent q: Advanced reasoning and learning for autonomous ai agents**, arXiv.2309.10814 [[paper](https://arxiv.org/abs/2408.07199)] 💡
 <!-- A* -->
-- **LLM-A*: Large Language Model Enhanced Incremental Heuristic Search on Path Planning**, EMNLP findings 2024 [[paper](https://arxiv.org/pdf/2407.02511)] | [[code]](https://github.com/SilinMeng0510/llm-astar/)
+- **LLM-A\*: Large Language Model Enhanced Incremental Heuristic Search on Path Planning**, EMNLP findings 2024 [[paper](https://arxiv.org/pdf/2407.02511)] | [[code]](https://github.com/SilinMeng0510/llm-astar/)
 <!-- Uncategorized -->
 - **Tree-Planner: Efficient Close-loop Task Planning with Large Language Models**, ICLR 2024 [[paper](https://openreview.net/forum?id=Glcsog6zOe)] 
 - **Plan, Verify and Switch: Integrated Reasoning with Diverse X-of-Thoughts**, EMNLP 2023 [[paper](https://doi.org/10.48550/arXiv.2310.14628)] 
@@ -130,7 +147,7 @@ This repository summarizes papers from our survey:
 - **ISR-LLM: Iterative Self-Refined Large Language Model for Long-Horizon Sequential Task Planning**, arXiv.2308.13724 [[paper](https://doi.org/10.48550/arXiv.2308.13724)] 💡
 
 #### Planning + Tool Use
-- **ToolChain\*: Efficient Action Space Navigation in Large Language Models with A* Search**, ICLR 2024 [[paper](https://openreview.net/forum?id=B6pQxqUcT8)] 
+- **ToolChain: Efficient Action Space Navigation in Large Language Models with A\* Search**, ICLR 2024 [[paper](https://openreview.net/forum?id=B6pQxqUcT8)] 
 - **TPTU: Task Planning and Tool Usage of Large Language Model-based AI Agents**, FMDM @ NeurIPS 2023 [[paper](https://openreview.net/forum?id=GrkgKtOjaH)] 
 - **TPTU-v2: Boosting Task Planning and Tool Usage of Large Language Model-based Agents in Real-world Systems**, LLMAgents @ ICLR 2024 [[paper](https://doi.org/10.48550/arXiv.2311.11315)] 
 
