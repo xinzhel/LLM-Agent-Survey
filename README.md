@@ -1,6 +1,6 @@
 <div align="center">
 <h2>    
-A Reading List for LLM-Agents (Updated: 8 Dec 2024)
+A Reading List for LLM-Agents (Updated: 20 Jan 2025)
 </div>
 
 <div align="center">
@@ -23,14 +23,15 @@ A Reading List for LLM-Agents (Updated: 8 Dec 2024)
 
 ### This Repository vs. Others
 Our Github Repository follows the selection criteria below:
-- Allowing Coherent Understanding: They can be systematically categoried into the unified framework in my survey
+- **Allowing Coherent Understanding**: They can be systematically categoried into the unified framework in my survey
   - My Survey: - [A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning](https://arxiv.org/abs/2406.05804)
     - [30 Nov 2024] Accepted at CoLing 2025. Camera-ready version on [arxiv](https://arxiv.org/abs/2406.05804)
     - [23 Oct 2024] Retitled in version 4 on [arxiv](https://arxiv.org/abs/2406.05804v5)
     - [09 Jun 2024] Initial version titled  "A Survey on LLM-Based Agents: Common Workflows and Reusable LLM-Profiled Components" on [arxiv](https://arxiv.org/abs/2406.05804v2)
   -  I am writing a more comprehensive survey under a more flexible, unified framework. ⭐️ STAR this repo to follow.  
-- High Quality: Papers are published on ICML, ICLR, NeurIPS, *ACL (including EMNLP), and COLING. Or unpublished papers contain useful analysis and insightful novelty 
+- **High Quality**: Papers are published on ICML, ICLR, NeurIPS, *ACL (including EMNLP), and COLING. Or unpublished papers contain useful analysis and insightful novelty 
   - Unpublished papers are marked with 💡 and will be updated upon publication. ⭐️ STAR this repo to stay updated!  
+  - Paper Reviews: The paper links to OpenReview (if available) are alwasy given. I often learn much more from and resonate with many reviews about the papers and evaluate some rejected papers with the reviews. (That's why I always like NeurIPS/ICLR papers).
 
 Other Github Repositories summarize related papers with less constrained selection criteria:
 * [AGI-Edgerunners/LLM-Agents-Papers](https://github.com/AGI-Edgerunners/LLM-Agents-Papers?tab=readme-ov-file)
@@ -97,6 +98,7 @@ Other Github Repositories summarize related papers focusing on specific perspect
 - **On the Planning Abilities of Large Language Models -- A Critical Investigation**, NeurIPS 2023 [[paper](https://doi.org/10.48550/arXiv.2305.15771)] 
 
 #### Search Workflows 
+Details in [the page (on the way to be publised)](search.md).
 <!-- BFS/DFS -->
 - **Tree of Thoughts: Deliberate Problem Solving with Large Language Models**, NeurIPS 2023 [[paper](https://doi.org/10.48550/arXiv.2305.10601)]
 - **Graph of Thoughts: Solving Elaborate Problems with Large Language Models**, AAAI 2024 [[paper](https://doi.org/10.48550/arXiv.2308.09687)]
