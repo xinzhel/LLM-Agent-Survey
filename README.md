@@ -2,6 +2,7 @@
 <h2>    
 A Reading List for LLM-Agents (Updated: 20 Jan 2025)
 </div>
+<!-- About: Surveys on LLM Agents (Published on CoLing 2025) and Test-Time Compute via Search (Preprint) -->
 
 <div align="center">
 <b>Xinzhe Li</b>
@@ -23,27 +24,26 @@ A Reading List for LLM-Agents (Updated: 20 Jan 2025)
 
 ### This Repository vs. Others
 Our Github Repository follows the selection criteria below:
-- **Allowing Coherent Understanding**: They can be systematically categoried into the unified framework in my survey
-  - My Survey: - [A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning](https://arxiv.org/abs/2406.05804)
-    - [30 Nov 2024] Accepted at CoLing 2025. Camera-ready version on [arxiv](https://arxiv.org/abs/2406.05804)
-    - [23 Oct 2024] Retitled in version 4 on [arxiv](https://arxiv.org/abs/2406.05804v5)
-    - [09 Jun 2024] Initial version titled  "A Survey on LLM-Based Agents: Common Workflows and Reusable LLM-Profiled Components" on [arxiv](https://arxiv.org/abs/2406.05804v2)
-  -  I am writing a more comprehensive survey under a more flexible, unified framework. ⭐️ STAR this repo to follow.  
+- **Allowing Coherent Understanding**: They can be systematically categoried into the unified framework in my survey, according to the use of LLM-Profiled Roles (LMPRs).
+  - A general survey (Accepted at CoLing 2025): [A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning](https://arxiv.org/abs/2406.05804)
+    <!-- - **Limitations**: The above survey only defines the LMPR-specific, universal workflow, i.e., lacking both task-specific implementatinos and procedures that not necessarily involve LLMs. The following survey is published to address this limitation in terms of search workflows. -->
+    <!-- - [17 Jan 2025] Initial version published on [arxiv](https://arxiv.org/abs/2501.10069) -->
 - **High Quality**: Papers are published on ICML, ICLR, NeurIPS, *ACL (including EMNLP), and COLING. Or unpublished papers contain useful analysis and insightful novelty 
   - Unpublished papers are marked with 💡 and will be updated upon publication. ⭐️ STAR this repo to stay updated!  
   - Paper Reviews: The paper links to OpenReview (if available) are alwasy given. I often learn much more from and resonate with many reviews about the papers and evaluate some rejected papers with the reviews. (That's why I always like NeurIPS/ICLR papers).
-
+- **Exhasutive Review on [Search Workflows]((search.md))**
+    - A corresponding survey: [A Survey on LLM Test-Time Compute via Search: Tasks, LLM Profiling, Search Algorithms, and Relevant Frameworks](https://arxiv.org/abs/2501.10069)
 Other Github Repositories summarize related papers with less constrained selection criteria:
 * [AGI-Edgerunners/LLM-Agents-Papers](https://github.com/AGI-Edgerunners/LLM-Agents-Papers?tab=readme-ov-file)
 * [zjunlp/LLMAgentPapers](https://github.com/zjunlp/LLMAgentPapers)
 * [Paitesanshi/LLM-Agent-Survey](https://github.com/Paitesanshi/LLM-Agent-Survey)
 * [woooodyy/llm-agent-paper-list](https://github.com/woooodyy/llm-agent-paper-list)
+* [Autonomous-Agents](https://github.com/tmgthb/Autonomous-Agents)
 
 Other Github Repositories summarize related papers focusing on specific perspectives:
 * [nuster1128/LLM_Agent_Memory_Survey](https://github.com/nuster1128/LLM_Agent_Memory_Survey): Focus on memory
 * [teacherpeterpan/self-correction-llm-papers](https://github.com/teacherpeterpan/self-correction-llm-papers): Focus on feedback learning (Self Correction)
 * [git-disl/awesome-LLM-game-agent-papers](https://github.com/git-disl/awesome-LLM-game-agent-papers): Focus on gaming applications
-
 
 
 ## Table of Contents
@@ -99,26 +99,45 @@ Other Github Repositories summarize related papers focusing on specific perspect
 
 #### Search Workflows 
 Details in [the page (on the way to be publised)](search.md).
-<!-- BFS/DFS -->
-- **Tree of Thoughts: Deliberate Problem Solving with Large Language Models**, NeurIPS 2023 [[paper](https://doi.org/10.48550/arXiv.2305.10601)]
-- **Graph of Thoughts: Solving Elaborate Problems with Large Language Models**, AAAI 2024 [[paper](https://doi.org/10.48550/arXiv.2308.09687)]
-- **Tree-of-Traversals: A Zero-Shot Reasoning Algorithm for Augmenting Black-box Language Models with Knowledge Graphs**, ACL 2024 [[paper](https://aclanthology.org/2024.acl-long.665/)]
-- **When is Tree Search Useful for {LLM} Planning? It Depends on the Discriminator**, ACL 2024 [[paper](https://aclanthology.org/2024.acl-long.738/)]
-<!-- MCTS -->
-- **LLM-MCTS:Large Language Models as Commonsense Knowledge for Large-Scale Task Planning**, NeurIPS 2023 [[paper](https://openreview.net/forum?id=tED747HURfX)] | [[code]](https://github.com/1989Ryan/llm-mcts)
-- **RAP: Reasoning with Language Model is Planning with World Model**, EMNLP 2023 [[paper](https://api.semanticscholar.org/CorpusID:258865812)]
 - **Alphazero-like Tree-Search can guide large language model decoding and training**, ICML 2024 [[paper](https://arxiv.org/abs/2309.17179)]
-- **Prompt-Based Monte-Carlo Tree Search for Goal-oriented Dialogue Policy Planning**, EMNLP 2023 [[paper](https://aclanthology.org/2023.emnlp-main.439/)]
-- **Monte Carlo Thought Search: Large Language Model Querying for Complex Scientific Reasoning in Catalyst Design**, EMNLP findings 2023 [[paper](https://aclanthology.org/2023.findings-emnlp.560/)]
-- **Agent q: Advanced reasoning and learning for autonomous ai agents**, arXiv.2309.10814 [[paper](https://arxiv.org/abs/2408.07199)] 💡
-<!-- A* -->
+    + Search Algorithm: MCTS
+- **Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models**, ICML 2024 [[paper](https://openreview.net/forum?id=6LNTSrJjBe)]
+    + Search Algorithm: MCTS
+- **When is Tree Search Useful for {LLM} Planning? It Depends on the Discriminator**, ACL 2024 [[paper](https://aclanthology.org/2024.acl-long.738/)]
+    + Search Algorithm: MCTS
+- **Everything of Thoughts: Defying the Law of Penrose Triangle for Thought Generation**, ACL findings 2024 [[paper](https://aclanthology.org/2024.findings-acl.95/)]
+    + Search Algorithm: MCTS
+- **Tree-of-Traversals: A Zero-Shot Reasoning Algorithm for Augmenting Black-box Language Models with Knowledge Graphs**, ACL 2024 [[paper](https://aclanthology.org/2024.acl-long.665/)]
+    + Search Algorithm: BFS/DFS
 - **LLM-A\*: Large Language Model Enhanced Incremental Heuristic Search on Path Planning**, EMNLP findings 2024 [[paper](https://arxiv.org/pdf/2407.02511)] | [[code]](https://github.com/SilinMeng0510/llm-astar/)
-<!-- Uncategorized -->
-- **Tree-Planner: Efficient Close-loop Task Planning with Large Language Models**, ICLR 2024 [[paper](https://openreview.net/forum?id=Glcsog6zOe)] 
-- **Plan, Verify and Switch: Integrated Reasoning with Diverse X-of-Thoughts**, EMNLP 2023 [[paper](https://doi.org/10.48550/arXiv.2310.14628)] 
+    + Search Algorithm: A*
 - **LLM Reasoners: New Evaluation, Library, and Analysis of Step-by-Step Reasoning with Large Language Models**, COLM2024 [[paper]](https://arxiv.org/abs/2404.05221) | [[code]](https://github.com/maitrix-org/llm-reasoners)
 - **Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models**, arXiv.2310.04406 [[paper](https://doi.org/10.48550/arXiv.2310.04406)] 💡
 - **Large Language Model Guided Tree-of-Thought**, arXiv.2305.08291 [[paper](https://doi.org/10.48550/arXiv.2305.08291)]💡
+- **Tree Search for Language Model Agents**, Under Review [[paper](https://openreview.net/forum?id=kpL66Mvd2a)]💡
+    + Search Algorithm: Best-First Search
+- **Q\*: Improving multi-step reasoning for llms with deliberative planning**, Under Review [[paper](https://openreview.net/forum?id=F7QNwDYG6I)]💡
+    + Search Algorithm: A*
+- **Planning with Large Language Models for Code Generation**, ICLR 2023 [[paper](ttps://openreview.net/forum?id=Lr8cOOtYbfL)]
+    + Search Algorithm: MCTS
+- **Tree of Thoughts: Deliberate Problem Solving with Large Language Models**, NeurIPS 2023 [[paper](https://doi.org/10.48550/arXiv.2305.10601)]
+    + Search Algorithm: BFS/DFS
+- **LLM-MCTS:Large Language Models as Commonsense Knowledge for Large-Scale Task Planning**, NeurIPS 2023 [[paper](https://openreview.net/forum?id=tED747HURfX)] | [[code]](https://github.com/1989Ryan/llm-mcts)
+    + Search Algorithm: MCTS
+- **Self-Evaluation Guided Beam Search for Reasoning**, NeurIPS 2023 [[paper](https://openreview.net/forum?id=Bw82hwg5Q3)]
+    + Search Algorithm: BFS/DFS
+- **PathFinder: Guided Search over Multi-Step Reasoning Paths**, NeurIPS 2023 R0-FoMo [[paper](https://openreview.net/forum?id=Bw82hwg5Q3)]
+    + Search Algorithm: Beam Search
+- **Plan, Verify and Switch: Integrated Reasoning with Diverse X-of-Thoughts**, EMNLP 2023 [[paper](https://doi.org/10.48550/arXiv.2310.14628)] 
+- **RAP: Reasoning with Language Model is Planning with World Model**, EMNLP 2023 [[paper](https://api.semanticscholar.org/CorpusID:258865812)]
+    + Search Algorithm: MCTS
+- **Prompt-Based Monte-Carlo Tree Search for Goal-oriented Dialogue Policy Planning**, EMNLP 2023 [[paper](https://aclanthology.org/2023.emnlp-main.439/)]
+    + Search Algorithm: MCTS
+- **Monte Carlo Thought Search: Large Language Model Querying for Complex Scientific Reasoning in Catalyst Design**, EMNLP findings 2023 [[paper](https://aclanthology.org/2023.findings-emnlp.560/)]
+    + Search Algorithm: MCTS
+- **Agent q: Advanced reasoning and learning for autonomous ai agents**, arXiv.2309.10814 [[paper](https://arxiv.org/abs/2408.07199)] 💡
+    + Search Algorithm: MCTS
+
 
 #### Decomposition
 - **HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face**, NeurIPS 2023 [[paper](https://openreview.net/forum?id=yHdTscY6Ci)] | [[code]](https://github.com/microsoft/JARVIS/tree/main/hugginggpt)
@@ -179,5 +198,14 @@ If you find our work helpful, you can cite this paper as:
   author={Li, Xinzhe},
   booktitle = "Proceedings of the 31st International Conference on Computational Linguistics",
   year = "2025",  
+}
+```
+
+```bibtex
+@article{li2025survey,
+  title={A Survey on LLM Test-Time Compute via Search: Tasks, LLM Profiling, Search Algorithms, and Relevant Frameworks},
+  author={Li, Xinzhe},
+  journal={arXiv preprint arXiv:2501.10069},
+  year={2025}
 }
 ```
