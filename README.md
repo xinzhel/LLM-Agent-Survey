@@ -1,6 +1,6 @@
 <div align="center">
 <h2>    
-A Reading List for LLM-Agents (Updated: 5 Mar 2025)
+A Reading List for LLM-Agents (Updated: 14 Mar 2025)
 </div>
 <!-- About: Surveys on LLM Agents (Published on CoLing 2025) and Test-Time Compute via Search (Preprint) -->
 
@@ -27,19 +27,19 @@ Our Github Repository follows the selection criteria below:
   - Unpublished papers are marked with 💡 and will be updated upon publication. ⭐️ STAR this repo to stay updated!  
   - Paper Reviews: The paper links to OpenReview (if available) are alwasy given. I often learn much more from and resonate with many reviews about the papers and evaluate some rejected papers with the reviews. (That's why I always like NeurIPS/ICLR papers).
 - **Exhasutive Review on [Search Workflows]((search.md))**
-    - A corresponding survey: [A Survey on LLM Test-Time Compute via Search: Tasks, LLM Profiling, Search Algorithms, and Relevant Frameworks](https://arxiv.org/abs/2501.10069)  <div style="color: red">Updated Paper will be released on 6 Mar 2025</div>
+    - A corresponding survey: [A Survey on LLM Test-Time Compute via Search: Tasks, LLM Profiling, Search Algorithms, and Relevant Frameworks](https://arxiv.org/abs/2501.10069) 
 
 Other Github Repositories summarize related papers with less constrained selection criteria:
-* [AGI-Edgerunners/LLM-Agents-Papers](https://github.com/AGI-Edgerunners/LLM-Agents-Papers?tab=readme-ov-file)
-* [zjunlp/LLMAgentPapers](https://github.com/zjunlp/LLMAgentPapers)
-* [Paitesanshi/LLM-Agent-Survey](https://github.com/Paitesanshi/LLM-Agent-Survey)
-* [woooodyy/llm-agent-paper-list](https://github.com/woooodyy/llm-agent-paper-list)
-* [Autonomous-Agents](https://github.com/tmgthb/Autonomous-Agents)
+* [AGI-Edgerunners/LLM-Agents-Papers](https://github.com/AGI-Edgerunners/LLM-Agents-Papers?tab=readme-ov-file)<a href="https://github.com/AGI-Edgerunners/LLM-Agents-Papers?tab=readme-ov-file"><img src="https://img.shields.io/github/last-commit/AGI-Edgerunners/LLM-Agents-Papers?color=blue" alt="Github"></a>
+* [zjunlp/LLMAgentPapers](https://github.com/zjunlp/LLMAgentPapers) <a href="https://github.com/zjunlp/LLMAgentPapers"><img src="https://img.shields.io/github/last-commit/zjunlp/LLMAgentPapers?color=blue" alt="Github"></a>
+* [Paitesanshi/LLM-Agent-Survey](https://github.com/Paitesanshi/LLM-Agent-Survey) <a href="https://github.com/Paitesanshi/LLM-Agent-Survey"><img src="https://img.shields.io/github/last-commit/Paitesanshi/LLM-Agent-Survey?color=blue" alt="Github"></a>
+* [woooodyy/llm-agent-paper-list](https://github.com/woooodyy/llm-agent-paper-list) <a href="https://github.com/woooodyy/llm-agent-paper-list"><img src="https://img.shields.io/github/last-commit/woooodyy/llm-agent-paper-list?color=blue" alt="Github"></a>
+* [Autonomous-Agents](https://github.com/tmgthb/Autonomous-Agents) <a href="https://github.com/tmgthb/Autonomous-Agents"><img src="https://img.shields.io/github/last-commit/tmgthb/Autonomous-Agents?color=blue" alt="Github"></a>
 
 Other Github Repositories summarize related papers focusing on specific perspectives:
-* [nuster1128/LLM_Agent_Memory_Survey](https://github.com/nuster1128/LLM_Agent_Memory_Survey): Focus on memory
-* [teacherpeterpan/self-correction-llm-papers](https://github.com/teacherpeterpan/self-correction-llm-papers): Focus on feedback learning (Self Correction)
-* [git-disl/awesome-LLM-game-agent-papers](https://github.com/git-disl/awesome-LLM-game-agent-papers): Focus on gaming applications
+* [nuster1128/LLM_Agent_Memory_Survey](https://github.com/nuster1128/LLM_Agent_Memory_Survey) <a href="https://github.com/nuster1128/LLM_Agent_Memory_Survey"><img src="https://img.shields.io/github/last-commit/nuster1128/LLM_Agent_Memory_Survey?color=blue" alt="Github"></a>: Focus on memory
+* [teacherpeterpan/self-correction-llm-papers](https://github.com/teacherpeterpan/self-correction-llm-papers) <a href="https://github.com/teacherpeterpan/self-correction-llm-papers"><img src="https://img.shields.io/github/last-commit/teacherpeterpan/self-correction-llm-papers?color=blue" alt="Github"></a>: Focus on feedback learning (Self Correction)
+* [git-disl/awesome-LLM-game-agent-papers](https://github.com/git-disl/awesome-LLM-game-agent-papers) <a href="https://github.com/git-disl/awesome-LLM-game-agent-papers"><img src="https://img.shields.io/github/last-commit/git-disl/awesome-LLM-game-agent-papers?color=blue" alt="Github"></a>: Focus on gaming applications
 
 
 ## Table of Contents
