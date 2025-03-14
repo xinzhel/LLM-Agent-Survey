@@ -26,7 +26,7 @@ Our Github Repository follows the selection criteria below:
 - **High Quality**: Papers are published on ICML, ICLR, NeurIPS, *ACL (including EMNLP), and COLING. Or unpublished papers contain useful analysis and insightful novelty 
   - Unpublished papers are marked with 💡 and will be updated upon publication. ⭐️ STAR this repo to stay updated!  
   - Paper Reviews: The paper links to OpenReview (if available) are alwasy given. I often learn much more from and resonate with many reviews about the papers and evaluate some rejected papers with the reviews. (That's why I always like NeurIPS/ICLR papers).
-- **Exhasutive Review on [Search Workflows]((search.md))**
+- **Exhasutive Review on [Search Workflows](search.md)**
     - A corresponding survey: [A Survey on LLM Test-Time Compute via Search: Tasks, LLM Profiling, Search Algorithms, and Relevant Frameworks](https://arxiv.org/abs/2501.10069) 
 
 Other Github Repositories summarize related papers with less constrained selection criteria:
