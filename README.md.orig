@@ -26,8 +26,13 @@ Our Github Repository follows the selection criteria below:
 - **High Quality**: Papers are published on ICML, ICLR, NeurIPS, *ACL (including EMNLP), and COLING. Or unpublished papers contain useful analysis and insightful novelty 
   - Unpublished papers are marked with 💡 and will be updated upon publication. ⭐️ STAR this repo to stay updated!  
   - Paper Reviews: The paper links to OpenReview (if available) are alwasy given. I often learn much more from and resonate with many reviews about the papers and evaluate some rejected papers with the reviews. (That's why I always like NeurIPS/ICLR papers).
-- **Exhasutive Review on [Search Workflows](search.md)**
+<<<<<<< HEAD
+- **Exhasutive Review on [Search Workflows]((search.md))**
     - A corresponding survey: [A Survey on LLM Test-Time Compute via Search: Tasks, LLM Profiling, Search Algorithms, and Relevant Frameworks](https://arxiv.org/abs/2501.10069) 
+=======
+- **Exhasutive Review on [Search Workflows](search.md)**
+    - A corresponding survey: [A Survey on LLM Test-Time Compute via Search: Tasks, LLM Profiling, Search Algorithms, and Relevant Frameworks](https://arxiv.org/abs/2501.10069)  <div style="color: red">Updated Paper will be released on 6 Mar 2025</div>
+>>>>>>> origin/main
 
 Other Github Repositories summarize related papers with less constrained selection criteria:
 * [AGI-Edgerunners/LLM-Agents-Papers](https://github.com/AGI-Edgerunners/LLM-Agents-Papers?tab=readme-ov-file)<a href="https://github.com/AGI-Edgerunners/LLM-Agents-Papers?tab=readme-ov-file"><img src="https://img.shields.io/github/last-commit/AGI-Edgerunners/LLM-Agents-Papers?color=blue" alt="Github"></a>
@@ -183,15 +188,6 @@ Details in [the page (on the way to be publised)](search.md).
 #### Planning Benchmarks
 - **Large Language Models Still Can't Plan (A Benchmark for LLMs on Planning and Reasoning about Change)**, NeurIPS 2023 [[paper](https://doi.org/10.48550/arXiv.2206.10498)] 
 
-## :star: Star History
-
-<a href="https://www.star-history.com/#xinzhel/LLM-Agent-Survey&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=xinzhel/LLM-Agent-Survey&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=xinzhel/LLM-Agent-Survey&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=xinzhel/LLM-Agent-Survey&type=Date" />
- </picture>
-</a>
 
 ## :memo: Citation
 
