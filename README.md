@@ -27,9 +27,9 @@ Our Github Repository follows the selection criteria below:
   - Unpublished papers are marked with 💡 and will be updated upon publication.
   - Paper Reviews: The paper links to OpenReview (if available) are alwasy given. I often learn much more from and resonate with many reviews about the papers and evaluate some rejected papers with the reviews. (That's why I always like NeurIPS/ICLR papers).
 - **Exhasutive Review on [Search Workflows](https://github.com/xinzhel/LLM-Search)**
-    - A corresponding survey on TMLR 2025: [A Survey on LLM Test-Time Compute via Search: Tasks, LLM Profiling, Search Algorithms, and Relevant Frameworks](https://arxiv.org/abs/2501.10069) 
+    - A corresponding survey on TMLR 2025: [A Survey on LLM Test-Time Compute via Search: Tasks, LLM Profiling, Search Algorithms, and Relevant Frameworks](https://openreview.net/forum?id=x9VQFjtOPS) 
 
-> From Apr 2025, I will not actively update this repo since my recent research focuses on (LLM Inference via Search)(https://github.com/xinzhel/LLM-Search), since the algorithms/workflows contain less heuristic and delibrate design while generally applicable. Also, with the limited energy as a solo work, putting all the energy can help me deliver better work to the community. Hopefully I can find a professional team later to work more ambitious. But I am sure that you can follow some actively updated repos below for the latest papers.
+> From Apr 2025, I will not actively update this repo since my recent research focuses on [LLM Inference via Search](https://github.com/xinzhel/LLM-Search). But I am sure that you can follow some actively updated repos below for the latest papers. Here is some reason for my transfer: 1) the algorithms/workflows contain less heuristic and delibrate design while generally applicable. 2) with the limited energy as an individual researcher on inference-time workflows/agents, I do not have enough energy to discover the details of newly published work in this general field. Putting all the energy on LIS can help me maintain the quality of my work delivered to the community. Hopefully I can find a professional team later to work more ambitiously. 
 
 Other Github Repositories summarize related papers with less constrained selection criteria:
 * [AGI-Edgerunners/LLM-Agents-Papers](https://github.com/AGI-Edgerunners/LLM-Agents-Papers?tab=readme-ov-file)<a href="https://github.com/AGI-Edgerunners/LLM-Agents-Papers?tab=readme-ov-file"><img src="https://img.shields.io/github/last-commit/AGI-Edgerunners/LLM-Agents-Papers?color=blue" alt="Github"></a>
@@ -201,11 +201,22 @@ Details in [the page (on the way to be publised)](https://github.com/xinzhel/LLM
 If you find our work helpful, you can cite this paper as:
 
 ```bibtex
-@inproceedings{li2024review,
-  title={A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning},
-  author={Li, Xinzhe},
-  booktitle = "Proceedings of the 31st International Conference on Computational Linguistics",
-  year = "2025",  
+@inproceedings{li-2025-review,
+    title = "A Review of Prominent Paradigms for {LLM}-Based Agents: Tool Use, Planning (Including {RAG}), and Feedback Learning",
+    author = "Li, Xinzhe",
+    editor = "Rambow, Owen  and
+      Wanner, Leo  and
+      Apidianaki, Marianna  and
+      Al-Khalifa, Hend  and
+      Eugenio, Barbara Di  and
+      Schockaert, Steven",
+    booktitle = "Proceedings of the 31st International Conference on Computational Linguistics",
+    month = jan,
+    year = "2025",
+    address = "Abu Dhabi, UAE",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.coling-main.652/",
+    pages = "9760--9779",
 }
 ```
 
