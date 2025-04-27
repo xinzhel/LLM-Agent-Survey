@@ -1,6 +1,6 @@
 <div align="center">
 <h2>    
-A Reading List for LLM-Agents (Updated: 14 Mar 2025)
+A Reading List for LLM-Agents (Last Major Updated: 14 Mar 2025)
 </div>
 <!-- About: Surveys on LLM Agents (Published on CoLing 2025) and Test-Time Compute via Search (Preprint) -->
 
@@ -24,10 +24,12 @@ Our Github Repository follows the selection criteria below:
     <!-- - **Limitations**: The above survey only defines the LMPR-specific, universal workflow, i.e., lacking both task-specific implementatinos and procedures that not necessarily involve LLMs. The following survey is published to address this limitation in terms of search workflows. -->
     <!-- - [17 Jan 2025] Initial version published on [arxiv](https://arxiv.org/abs/2501.10069) -->
 - **High Quality**: Papers are published on ICML, ICLR, NeurIPS, *ACL (including EMNLP), and COLING. Or unpublished papers contain useful analysis and insightful novelty 
-  - Unpublished papers are marked with 💡 and will be updated upon publication. ⭐️ STAR this repo to stay updated!  
+  - Unpublished papers are marked with 💡 and will be updated upon publication.
   - Paper Reviews: The paper links to OpenReview (if available) are alwasy given. I often learn much more from and resonate with many reviews about the papers and evaluate some rejected papers with the reviews. (That's why I always like NeurIPS/ICLR papers).
-- **Exhasutive Review on [Search Workflows](search.md)**
-    - A corresponding survey: [A Survey on LLM Test-Time Compute via Search: Tasks, LLM Profiling, Search Algorithms, and Relevant Frameworks](https://arxiv.org/abs/2501.10069) 
+- **Exhasutive Review on [Search Workflows](https://github.com/xinzhel/LLM-Search)**
+    - A corresponding survey on TMLR 2025: [A Survey on LLM Test-Time Compute via Search: Tasks, LLM Profiling, Search Algorithms, and Relevant Frameworks](https://arxiv.org/abs/2501.10069) 
+
+> From Apr 2025, I will not actively update this repo since my recent research focuses on (LLM Inference via Search)(https://github.com/xinzhel/LLM-Search), since the algorithms/workflows contain less heuristic and delibrate design while generally applicable. Also, with the limited energy as a solo work, putting all the energy can help me deliver better work to the community. Hopefully I can find a professional team later to work more ambitious. But I am sure that you can follow some actively updated repos below for the latest papers.
 
 Other Github Repositories summarize related papers with less constrained selection criteria:
 * [AGI-Edgerunners/LLM-Agents-Papers](https://github.com/AGI-Edgerunners/LLM-Agents-Papers?tab=readme-ov-file)<a href="https://github.com/AGI-Edgerunners/LLM-Agents-Papers?tab=readme-ov-file"><img src="https://img.shields.io/github/last-commit/AGI-Edgerunners/LLM-Agents-Papers?color=blue" alt="Github"></a>
@@ -37,6 +39,7 @@ Other Github Repositories summarize related papers with less constrained selecti
 * [Autonomous-Agents](https://github.com/tmgthb/Autonomous-Agents) <a href="https://github.com/tmgthb/Autonomous-Agents"><img src="https://img.shields.io/github/last-commit/tmgthb/Autonomous-Agents?color=blue" alt="Github"></a>
 
 Other Github Repositories summarize related papers focusing on specific perspectives:
+* [LLM-Search](https://github.com/xinzhel/LLM-Search) <a href="https://github.com/xinzhel/LLM-Search"><img src="https://img.shields.io/github/last-commit/xinzhel/LLM-Search?color=blue" alt="Github"></a>
 * [nuster1128/LLM_Agent_Memory_Survey](https://github.com/nuster1128/LLM_Agent_Memory_Survey) <a href="https://github.com/nuster1128/LLM_Agent_Memory_Survey"><img src="https://img.shields.io/github/last-commit/nuster1128/LLM_Agent_Memory_Survey?color=blue" alt="Github"></a>: Focus on memory
 * [teacherpeterpan/self-correction-llm-papers](https://github.com/teacherpeterpan/self-correction-llm-papers) <a href="https://github.com/teacherpeterpan/self-correction-llm-papers"><img src="https://img.shields.io/github/last-commit/teacherpeterpan/self-correction-llm-papers?color=blue" alt="Github"></a>: Focus on feedback learning (Self Correction)
 * [git-disl/awesome-LLM-game-agent-papers](https://github.com/git-disl/awesome-LLM-game-agent-papers) <a href="https://github.com/git-disl/awesome-LLM-game-agent-papers"><img src="https://img.shields.io/github/last-commit/git-disl/awesome-LLM-game-agent-papers?color=blue" alt="Github"></a>: Focus on gaming applications
@@ -94,7 +97,7 @@ Other Github Repositories summarize related papers focusing on specific perspect
 - **On the Planning Abilities of Large Language Models -- A Critical Investigation**, NeurIPS 2023 [[paper](https://doi.org/10.48550/arXiv.2305.15771)] 
 
 #### Search Workflows 
-Details in [the page (on the way to be publised)](search.md).
+Details in [the page (on the way to be publised)](https://github.com/xinzhel/LLM-Search).
 - **Alphazero-like Tree-Search can guide large language model decoding and training**, ICML 2024 [[paper](https://arxiv.org/abs/2309.17179)]
     + Search Algorithm: MCTS
 - **Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models**, ICML 2024 [[paper](https://openreview.net/forum?id=6LNTSrJjBe)]
