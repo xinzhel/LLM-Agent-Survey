@@ -221,10 +221,13 @@ If you find our work helpful, you can cite this paper as:
 ```
 
 ```bibtex
-@article{li2025survey,
-  title={A Survey on LLM Test-Time Compute via Search: Tasks, LLM Profiling, Search Algorithms, and Relevant Frameworks},
-  author={Li, Xinzhe},
-  journal={arXiv preprint arXiv:2501.10069},
-  year={2025}
+@article{li2025a,
+title={A Survey on {LLM} Test-Time Compute via Search: Tasks, {LLM} Profiling, Search Algorithms, and Relevant Frameworks},
+author={Xinzhe Li},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2025},
+url={https://openreview.net/forum?id=x9VQFjtOPS},
+note={}
 }
 ```
